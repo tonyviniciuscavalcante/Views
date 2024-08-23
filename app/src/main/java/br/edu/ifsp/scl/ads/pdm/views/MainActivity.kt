@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
-        
+
         amb.limparBt.setOnClickListener {
             amb.run {
                 nomeEt.text.clear()
